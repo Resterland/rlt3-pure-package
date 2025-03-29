@@ -1,2 +1,2 @@
 # Resterland Pure.css Package (rlt3-pure-package)
-TYPO3 package based on pure css framework
+A TYPO3 package based on the [pure.css](https://pure-css.github.io/)  framework

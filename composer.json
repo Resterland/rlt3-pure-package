@@ -1,0 +1,44 @@
+{
+	"name": "resterland/rlt3-pure-package",
+	"type": "typo3-cms-extension",
+	"description": "A TYPO3 package based on the pure.css (https://pure-css.github.io/) framework.",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"TYPO3 CMS",
+		"responsive",
+		"Pure.css",
+		"ResterLand WebAtelier"
+	],
+	"authors": [
+		{
+			"name": "JRoland Fuhrer",
+			"role": "Developer",
+			"email": "webmaster@resterland.org",
+			"homepage": "https://resterland.org/"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^12.4 || ^13.4",
+		"phpunit/phpunit": "^9"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"autoload": {
+		"psr-4": {
+			"Resterland\\Rlt3PurePackage\\": "Classes/"
+		}
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"allow-plugins": {
+			"typo3/cms-*": true,
+			"roave/security-advisories": true
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "rlt3-pure-package"
+		}
+	}
+}
