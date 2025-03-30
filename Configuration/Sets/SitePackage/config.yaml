@@ -1,2 +1,5 @@
 name: resterland/rlt3-pure-package
 label: 'ResterLand Pure Site Package'
+dependencies:
+  - typo3/fluid-styled-content
+  - typo3/fluid-styled-content-css

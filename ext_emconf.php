@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'ResterLand Site Package',
+    'title' => 'ResterLand Pure Site Package',
     'description' => 'A TYPO3 package based on the pure.css (https://pure-css.github.io/) framework.',
     'category' => 'templates',
     'constraints' => [

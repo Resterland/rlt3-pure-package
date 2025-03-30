@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="messages" date="2025-03-25UTC07:27:400">
+    <file source-language="en" datatype="plaintext" original="messages" date="2025-03-30UTC08:30:520">
         <header>
             <authorName>Roland Fuhrer</authorName>
             <authorEmail>webmaster@resterland.org</authorEmail>
@@ -8,6 +8,9 @@
         <body>
             <trans-unit id="backend_layout.default">
                 <source>Default</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.subpage">
+                <source>Subpage</source>
             </trans-unit>
             <trans-unit id="backend_layout.column.stage">
                 <source>Stage</source>
@@ -17,6 +20,9 @@
             </trans-unit>
             <trans-unit id="backend_layout.column.right">
                 <source>Right</source>
+            </trans-unit>
+            <trans-unit id="content_element.group.rlt3_pure_package">
+                <source>rlt3-pure-package elements</source>
             </trans-unit>
         </body>
     </file>

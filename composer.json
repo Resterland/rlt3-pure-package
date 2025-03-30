@@ -39,7 +39,7 @@
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "rlt3-pure-package"
+			"extension-key": "rlt3_pure_package"
 		}
 	}
 }

@@ -1,0 +1,48 @@
+categories:
+  Rlt3PurePackage:
+    label: 'Resterland Pure Site Package'
+  Rlt3PurePackage.templates:
+    label: 'Templates'
+    parent: Rlt3PurePackage
+  Rlt3PurePackage.layout:
+    label: 'Layout'
+    parent: Rlt3PurePackage
+  Rlt3PurePackage.menus:
+    label: 'Menus'
+    parent: Rlt3PurePackage
+
+settings:
+  Rlt3PurePackage.template_path:
+    label: 'Page template path'
+    category: Rlt3PurePackage.templates
+    description: 'Path to the templates of the rlt3-pure-package.'
+    type: string
+    default: 'EXT:rlt3_pure_package/Resources/Private/Templates/'
+
+  Rlt3PurePackage.logo:
+    label: 'Logo'
+    category: Rlt3PurePackage.layout
+    description: 'Path to the logo of rlt3-pure-package.'
+    type: string
+    default: 'EXT:rlt3_pure_package/Resources/Public/Images/logo.svg'
+
+  Rlt3PurePackage.logo-alt:
+    label: 'Logo Alt text'
+    category: Rlt3PurePackage.layout
+    description: 'Alternative text of the logo for the visually impaired'
+    type: string
+    default: 'Logo'
+
+  Rlt3PurePackage.favicon:
+    label: 'Favicon'
+    description: 'This icon is displayed in search engine results and in the browser tab'
+    category: Rlt3PurePackage.layout
+    type: string
+    default: 'EXT:rlt3_pure_package/Resources/Public/Icons/favicon.ico'
+
+  Rlt3PurePackage.footerMenuRoot:
+      label: 'Footer menu root uid'
+      description: 'The subpages of this page are displayed in the footer'
+      category: Rlt3PurePackage.menus
+      type: int
+      default: 2
