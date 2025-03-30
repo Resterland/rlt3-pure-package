@@ -24,7 +24,7 @@ settings:
     category: Rlt3PurePackage.layout
     description: 'Path to the logo of rlt3-pure-package.'
     type: string
-    default: 'EXT:rlt3_pure_package/Resources/Public/Images/logo.svg'
+    default: 'EXT:rlt3_pure_package/Resources/Public/Images/Logos/Default/Logo.svg'
 
   Rlt3PurePackage.logo-alt:
     label: 'Logo Alt text'
