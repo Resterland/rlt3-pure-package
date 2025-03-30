@@ -1,12 +1,11 @@
 {
 	"name": "resterland/rlt3-pure-package",
 	"type": "typo3-cms-extension",
-	"description": "A TYPO3 package based on the pure.css (https://pure-css.github.io/) framework.",
+	"description": "A TYPO3 site package .",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"TYPO3 CMS",
 		"responsive",
-		"Pure.css",
 		"ResterLand WebAtelier"
 	],
 	"authors": [

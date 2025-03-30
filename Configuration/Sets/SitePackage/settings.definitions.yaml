@@ -1,6 +1,6 @@
 categories:
   Rlt3PurePackage:
-    label: 'Resterland Pure Site Package'
+    label: 'Resterland Site Package'
   Rlt3PurePackage.templates:
     label: 'Templates'
     parent: Rlt3PurePackage
